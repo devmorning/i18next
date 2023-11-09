@@ -3,8 +3,8 @@
     push:
       branches: [main]
   jobs:
-    name: Translate
-    runs-on: ubuntu-latest
-    steps:
-      - name: Echo the greeting's time
-        run: npm run push:i18n
+    build:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Echo the greeting's time
+          run: npm run push:i18n
