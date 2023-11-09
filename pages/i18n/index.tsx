@@ -87,6 +87,9 @@ const I18n = () => {
   //   console.log('change Lang')
   // });
 
+
+
+
   return (
     <>
       <p>::: {i18next.t('testKey1')}</p>
